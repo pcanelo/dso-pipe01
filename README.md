@@ -1,4 +1,4 @@
-# Demostracion de inicio de pipeline seguro
+# Demostración de inicio de pipeline seguro
 
 Ejemplo de aplicación spring con script de pipeline Jenkins para demostrar pipelines seguros
 
@@ -19,7 +19,7 @@ Ejemplo de aplicación spring con script de pipeline Jenkins para demostrar pipe
 
 ### Jenkins setup
 
-- Stup Jenkins server
+- Setup Jenkins server
 
   ```s
   helm repo add jenkins https://charts.jenkins.io
