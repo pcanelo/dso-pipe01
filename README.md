@@ -1,13 +1,13 @@
-# Secure Pipelines Demo
+# Demostracion de inicio de pipeline seguro
 
-Sample spring application with Jenkins pipeline script to demonstrate secure pipelines
+Ejemplo de aplicación spring con script de pipeline Jenkins para demostrar pipelines seguros
 
-## Pre Requesites
+## Pre Requesitos
 
-- minikube v1.18.1 - [Refer here for installation](https://kubernetes.io/docs/tasks/tools/install-minikube/)
-- helm v3.5.3 - [Refer here for installation](https://helm.sh/docs/intro/install/)
+- minikube v1.15.0 - [Refer here for installation](https://kubernetes.io/docs/tasks/tools/install-minikube/)
+- helm v3.9.4 - [Refer here for installation](https://helm.sh/docs/intro/install/)
 
-## Setup Setps
+## Pasos Setup
 
 ### Minikube setup
 
@@ -15,6 +15,7 @@ Sample spring application with Jenkins pipeline script to demonstrate secure pip
   ```s
   minikube start --nodes=1 --cpus=4 --memory 8192 --disk-size=35g --embed-certs=true --driver=hyperkit
   ```
+  en el driver puedes usar el que quieras, virtual box o hyper-v
 
 ### Jenkins setup
 
