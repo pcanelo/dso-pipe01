@@ -27,8 +27,8 @@ Ejemplo de aplicación spring con script de pipeline Jenkins para demostrar pipe
   helm install jenkins jenkins/jenkins
   ```
 
-- Wait for the jenkins pod to start
-- Get admin user password of Jenkins
+- Esperar hast que el pod de jenkins inicie
+- Rescatar la clave del usuario admin de Jenkins
 
   ```s
     kubectl exec --namespace default -it svc/jenkins -c jenkins -- /bin/cat /run/secrets/chart-admin-password && echo
